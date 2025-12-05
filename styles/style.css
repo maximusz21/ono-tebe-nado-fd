@@ -1,8 +1,8 @@
-.section{
+.section {
     margin: 40px 0;
     padding: auto;
 }
-.header{
+.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items:center;
@@ -10,15 +10,15 @@
     font-size: 18px;
     text-decoration-skip-ink: none;
 }
-.header__menu{
+.header__menu {
     display: flex;
     align-items: flex-start;
     list-style: circle;
 }
-.header__links-list-item-no{
+.header__links-list-item-no {
     list-style-type: none;
 }
-.header__links-list{
+.header__links-list {
     display: flex;
     gap: 33px;
     align-items: flex-start;
@@ -27,22 +27,22 @@
     padding: 0;
     margin: 0;
 }
-.header__links-list-item{
+.header__links-list-item {
     text-decoration: underline;
     text-underline-position: under;
 }
-.header_logo{
+.header_logo {
     justify-self: center;
     display: block;
     width: 148px;
 }
-.header_logo img{
+.header_logo img {
     display: block;
     max-width: 148px;
     height: 105px;
     object-fit: contain;
 }
-.header__address{
+.header__address {
     display: block;
     flex-direction: column;
     max-width: 240px;
@@ -52,18 +52,14 @@
     line-height: 24.3px;
     font-style: inherit;
 }
-.header__address a{
+.header__address a {
     text-decoration: underline;
     margin-top: 4px;
 }
-span.address_location{
+span.address_location {
     display: flex;
     width: 236px;
     height: 49px;
-}
-.section{
-    display: block;
-    unicode-bidi:isolate;
 }
 .cover {
     padding: 165px 50px 50px 50px;
@@ -100,29 +96,29 @@ span.address_location{
     font-size: 100px;
     line-height: 1.15;
 }
-.cover__title span{
+.cover__title span {
     display: block;
 }
-.cover__title-text{
+.cover__title-text {
     display: flex;
 }
-.aligned-text_left{
+.aligned-text_left {
     letter-spacing: 0.3em;
     text-align: left;
 }
-.aligned-text_center{
+.aligned-text_center {
     letter-spacing: 0.3em;
     padding: 0 0 0 30px;
     text-align: center;
     
 }
-.aligned-text_right{
+.aligned-text_right {
     margin-right: -30px;
     letter-spacing: 0.3em;
     justify-content: right;
     text-align: right;
 }
-.cover__description{
+.cover__description {
     padding: 106px 0 0 0;
     display: flex;
     align-items: center;
@@ -137,7 +133,7 @@ span.address_location{
     line-height: 28px;
     max-width: 637px;
 }
-.cover__button{
+.cover__button {
     display: flex;
     align-items: center;
     padding: 12px 32px 11px 31px;
