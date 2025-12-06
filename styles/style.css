@@ -68,7 +68,7 @@ span.address_location {
 .cover {
     padding: 165px 50px 50px 50px;
     min-height: 757px;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -282,7 +282,7 @@ span.address_location {
 .footer {
     width: 1100px;
     margin-top: 180px;
-    padding: 1px 50px 0 50px;
+    padding: 1px 50px 82px 50px;
     display: grid;
     text-underline-position: under;
     grid-template-columns: 1fr max-content 1fr;
