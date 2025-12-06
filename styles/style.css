@@ -223,7 +223,6 @@ span.address_location {
 
 .card__text {
     font-size: 20px;
-    line-height: 1.2; 
     margin-top: auto;
     align-items: center;
 }
@@ -304,9 +303,7 @@ span.address_location {
     list-style: none;
     text-align: center;
 }
-.footer__links-list-item_no-bullit {
-    text-decoration: none;
-}
+
 .footer__link_active {
     text-decoration: none;
 }
