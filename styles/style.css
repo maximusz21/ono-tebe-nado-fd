@@ -15,9 +15,6 @@
     align-items: flex-start;
     list-style: circle;
 }
-.header__links-list-item-no {
-    list-style-type: none;
-}
 .header__links-list {
     display: flex;
     gap: 33px;
@@ -31,6 +28,12 @@
     text-decoration: underline;
     text-underline-position: under;
 }
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+.header__link_active {
+    text-decoration: none;
+}
 .header_logo {
     justify-self: center;
     display: block;
@@ -42,24 +45,25 @@
     height: 105px;
     object-fit: contain;
 }
+.address {
+    width: 240px;
+    line-height: 24.3px;
+    flex-direction: column;
+}
 .header__address {
     display: block;
-    flex-direction: column;
-    max-width: 240px;
-    max-height: 97px;
     text-underline-position: under;
     justify-self: end;
-    line-height: 24.3px;
     font-style: inherit;
 }
 .header__address a {
     text-decoration: underline;
     margin-top: 4px;
+    padding: 0 0 0 1px;
 }
 span.address_location {
     display: flex;
-    width: 236px;
-    height: 49px;
+    padding: 1px 30px 0 1px;
 }
 .cover {
     padding: 165px 50px 50px 50px;
@@ -150,6 +154,7 @@ span.address_location {
 .lots {
     padding: 180px 0 0 25px;
     width: 1100px;
+    
 }
 
 .lots__heading {
@@ -161,7 +166,6 @@ span.address_location {
 }
 
 .lots__card-list {
-    line-height: 0.1;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -175,8 +179,7 @@ span.address_location {
     min-height: 596px;
 }
 
-.card-link {
-    
+.card__link {
     display: block;
     height: 100%;
     text-decoration: none;
@@ -215,33 +218,31 @@ span.address_location {
     line-height: 1.2;
     text-transform: uppercase;
     text-decoration: underline;
+    text-underline-position: under;
 }
 
 .card__text {
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.2; 
     margin-top: auto;
     align-items: center;
 }
 
 .lots__look-more-link {
-    padding: 0 0 0 40px;
+    padding-left:40px;
     display: block;
     margin-top: 30px;
     font-size: 20px;
     text-decoration: underline;
     color: #000;
-}
-
-.about_columns {
-    margin: 120px 24px 0 24px;
+    text-underline-position: under;
 }
 
 .about__columns {
+    margin: 120px 24px 0 24px;
     display: grid;
     grid-template-columns: 335px 1fr;
     gap: 25px;
-    min-height: 595px;
 }
 
 .about__column_logo {
@@ -292,24 +293,23 @@ span.address_location {
 
 .footer__address {
     display: flex;
-    flex-direction: column;
     font-style: normal;
-    line-height: 24.3px;
-    width: 264.57px;
-    height: 98px;
+    padding-left:1px ;
 }
-
-.footer__menu-list {
+.footer__menu {
+    display: flex;
+    align-items: flex-start;
+}
+.footer__link-list {
     list-style: none;
     text-align: center;
 }
-
-.footer__menu-list a {
-    font-size: 18px;
-    text-decoration: underline;
-    
+.footer__links-list-item_no-bullit {
+    text-decoration: none;
 }
-
+.footer__link_active {
+    text-decoration: none;
+}
 .footer__social {
     display: flex;
     justify-content: end;
